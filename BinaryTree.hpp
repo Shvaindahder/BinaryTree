@@ -6,7 +6,7 @@
 using namespace std;
 
 struct Node {
-    int value = NULL;
+    int value;
     Node* son = nullptr;
     Node* brother = nullptr;
 };

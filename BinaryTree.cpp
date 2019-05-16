@@ -58,6 +58,7 @@ void BinaryTree::preOrderCombine(BinaryTree& secondTree) {
 }
 
 void BinaryTree::preOrder(Node *current) const{
+    cout<<current->value<<'\t';
     if(current->son)
         preOrder(current->son);
     if(current->brother)
